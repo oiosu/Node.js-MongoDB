@@ -1,5 +1,8 @@
 const express = require('express');
 const app = express();
+const bodyParer = require('body-parser');
+app.use(bodyParer.urlencoded({extended : true}));
+
 
 // listen(파라미터1, 파라미터2)
 // listen(서버띄울 포트번호, 띄운 후 실행할 코드)
@@ -33,4 +36,10 @@ app.get('/', function(요청, 응답){
 
 app.get('/write', function(요청, 응답){
     응답.sendFile(__dirname + '/write.html');
+});
+
+// POST 요청 업그레이드
+app.post('/add', function(요청, 응답){
+    응답.send('전송완료');
+    console.log(요청.body.title);
 });
