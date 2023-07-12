@@ -337,4 +337,27 @@ app.get(_________)
 
 (6) Code on Demon
 
+🔻 좋은 REST API 예시 
 
+> `www.example.com/products/66432`
+>
+> `instagram.com/explore/tags/koop`
+>
+> `facebook.com/nageo/photos`
+>
+> > URL을 보고도 내가 예측이 가능하다면, 좋은 URL이다. 
+> >
+> > ##### ◼ 좋은 REST API 이름 짓기 원칙 
+> >
+> > * URL을 명사로 작성 추천
+> > * 하위 문서를 나타낼 때 파일 확장자(HTML) 쓰지 말기 
+> > * 띄어쓰기는 대시(-) 이용
+> > * 자료 하나당 하나의 URL
+>
+> ##### ◼ 슬래시(/) 를 사용하는 이유 
+>
+> : `facebook.com/natgeo`
+>
+> natgeo 에 대한 photos, pots, video 등 
+>
+> ✔ 하위폴더를 만드는 것처럼 세분화 하여 슬래시를 사용하는 것이다. 
