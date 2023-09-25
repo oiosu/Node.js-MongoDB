@@ -1,5 +1,16 @@
 # Node.js-MongoDB
 
+> * 만들 것 : 할 일 메모장 
+>
+>   > 글 목록 읽기 기능, 글 발행, 수정, 삭제 (모든 웹서비스의 뼈대)
+>   >
+>   > + 회원기능 = 플랫폼 / sns 
+>   > + 결제기능 = 쇼핑몰
+>
+> * Node.js, NoSQL Database(MongoDB), DB에 데이터 저장/출력법, 서버제작(API) 
+>
+> * 사전 지식 : HTML/CSS 기초, JS기초문법 (if, for, functon.. 등등)
+
 ## 1. 서버란 SERVER?
 
 #### WHAT IS SERVER
